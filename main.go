@@ -8,5 +8,5 @@ func main() {
 	var s string = "Helllo World"
 	fmt.Println(s)
 	var f float64 = 3.14
-	fmt.Println
+	fmt.Println(f)
 }
