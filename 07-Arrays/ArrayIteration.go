@@ -19,4 +19,11 @@ func main() {
 		fmt.Println(value)
 
 	}
+
+	//Range and counter
+	j := 0
+	for range x {
+		fmt.Println("J:", x[j])
+		j++
+	}
 }
