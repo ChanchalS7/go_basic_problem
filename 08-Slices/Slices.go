@@ -42,4 +42,17 @@ func main() {
 	d[1] = 35
 	fmt.Println(d)
 
+	//copy slice into another slice
+	var e = []int{10, 20, 30, 40}
+	var f = []int{50, 60, 70, 80}
+
+	copy(e, f)
+	fmt.Println("E:", e)
+
+	//Append a slice to an existing one
+	var g = []int{10, 20, 30, 40}
+	var h = []int{50, 60, 70, 80}
+	g = append(g, h...)
+	fmt.Println("G:", g)
+
 }
